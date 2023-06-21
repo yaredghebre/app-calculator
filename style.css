@@ -1,0 +1,58 @@
+.ms_container {
+    background-color: rgba(144, 238, 144, 0.498);
+}
+
+.calculator {
+    background-color: gray;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.200);
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+form input.digit{
+    background-color: rgba(0, 0, 0, 0.542);
+}
+
+form input.operator {
+    color: rgba(0, 0, 0, 0.542);
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 225px;
+    background-color: orange;
+}
+
+form input.clear {
+    background-color: rgba(255, 127, 80, 0.909);
+}
+
+form input.operator {
+    background-color: gold;
+}
+
+input:not(#display):hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.250);
+    transition: transform 0.3s ease-in-out;
+}
+
+form input:active {
+    color: gold;
+}
